@@ -4,7 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <link rel="shortcut icon" href="img/lifestyleStore.png" />-->
+        <link rel="shortcut icon" href="img/napoli.webp"/>
         <title>Billion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
