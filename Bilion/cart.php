@@ -21,6 +21,7 @@
             $sum=$sum+$row['price']; 
        }
     }
+    
 ?>
 <!DOCTYPE html>
 <html>

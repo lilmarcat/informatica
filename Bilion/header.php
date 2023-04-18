@@ -2,9 +2,9 @@
                <div class="container">
                    <div class="navbar-header">
                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                           <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
-                           <span class="icon-bar"></span>
+                            <span class="icon-bar"> </span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
                        </button>
                        <img rel="shortcut icon" href="img/napoli.webp"/>
                        <a href="index.php" class="navbar-brand"><link rel="shortcut icon" href="img/napoli.webp"/>Bilion.</a>
@@ -24,7 +24,7 @@
                             <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
                            <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                            <?php
-                           }
+                          }
                            ?>
                            
                        </ul>
