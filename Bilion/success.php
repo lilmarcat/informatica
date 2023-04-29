@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require 'connection.php';
+    require 'DatabaseClassSingleton.php';
     if(!isset($_SESSION['email'])){
         header('location:index.php');
     }else{
@@ -14,7 +14,7 @@
 <html>
     <head>
     <link rel="shortcut icon" href="img/napoli.webp"/>
-        <title>Projectworlds Store</title>
+        <title>Blilion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -45,12 +45,11 @@
                 </div>
             </div>
             <footer class="footer">
-               <div class="container">
-                <center>
-                   <p>Copyright &copy <a href="https://projectworlds.in">Projectworlds</a> Store. All Rights Reserved.</p>
-                   <p>This website is developed by Yugesh Verma</p>
-               </center>
-               </div>
+            <div class="container">
+                
+            <center> <p>This website is developed by lilmarcat</p></center> 
+            
+            </div>
            </footer>
         </div>
     </body>

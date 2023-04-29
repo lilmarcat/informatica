@@ -5,7 +5,7 @@ session_start();
 <html>
     <head>
         <link rel="shortcut icon" href="img/napoli.webp"/>
-        <title>Billion</title>
+        <title>Blilion</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -38,12 +38,12 @@ session_start();
                    <div class="col-xs-4">
                        <div  class="thumbnail">
                            <a href="products.php">
-                                <img src="img/camera.jpg" alt="Camera">
+                                <img src="immagini/Model-S.png" alt="Tesla">
                            </a>
                            <center>
                                 <div class="caption">
-                                        <p id="autoResize">Rolex</p>
-                                        <p>Original watches from the best brands.</p>
+                                        <p id="autoResize">Tesla</p>
+                                        <p>Le Migliori Auto Elettriche Sul Mercato.</p>
                                 </div>
                            </center>
                        </div>
@@ -55,7 +55,7 @@ session_start();
                            </a>
                            <center>
                                 <div class="caption">
-                                    <p id="autoResize">Iphone</p>
+                                    <p id="autoResize">Lamborghini</p>
                                     <p>Original watches from the best brands.</p>
                                 </div>
                            </center>
@@ -78,9 +78,11 @@ session_start();
            </div>
             <br><br> <br><br><br><br>
            <footer class="footer"> 
-               <div class="container">
-               
-               </div>
+           <div class="container">
+                
+                <center> <p>This website is developed by lilmarcat</p></center> 
+            
+            </div>
            </footer>
         </div>
     </body>

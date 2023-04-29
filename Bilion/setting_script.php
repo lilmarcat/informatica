@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require 'connection.php';
+    require 'DatabaseClassSingleton.php';
     if(!isset($_SESSION['email'])){
         header('location:index.php');
     }  
