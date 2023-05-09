@@ -2,16 +2,34 @@
     margin-bottom: 0px;
 }
 
-#bannerImage{
-    padding-top:75px;
-    padding-bottom:50px;
-    margin-bottom: 20px;
-    text-align:center;
-    color:#f8f8f8;
-    background:url(../img/intro-bg_1.jpg);
-    background-size:cover;
-}
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+        html, body {
+        height:100%;
+        margin:0;
+        }
+        .contenitore{
+        height:100%
+        }
+        .videofullscreen{
+        position:absolute;
+        overflow: hidden;
+        width:100% !important;
+        height:100% !important;
+        object-fit: cover;
+        z-index: -100;
+        }
+        .titolo{
+        position: absolute;
+        color:#FFFFFF;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        border:10px solid;
+        border-radius: 25px;
+        padding:20px;
+        }
+
+        
 #bannerContent{
     position:relative;
     padding-top:6%;

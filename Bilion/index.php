@@ -3,87 +3,98 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="shortcut icon" href="img/napoli.webp"/>
-        <title>Blilion</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- latest compiled and minified CSS -->
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
-        <!-- jquery library -->
-        <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
-        <!-- Latest compiled and minified javascript -->
-        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-        <!-- External CSS -->
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-    </head>
-    <body>
-        <div>
-           <?php
-            require 'header.php';
-           ?>
-           <div id="bannerImage">
-               <div class="container">
-                   <center>
-                   <div id="bannerContent">
-                       <h1>Billion.</h1>
-                       <p>Flat 40% OFF on all premium brands.</p>
-                       <a href="products.php" class="btn btn-danger">Shop Now</a>
-                   </div>
-                   </center>
-               </div>
-           </div>
-           <div class="container">
-               <div class="row">
-                   <div class="col-xs-4">
-                       <div  class="thumbnail">
-                           <a href="products.php">
-                                <img src="immagini/Model-S.png" alt="Tesla">
-                           </a>
-                           <center>
-                                <div class="caption">
-                                        <p id="autoResize">Tesla</p>
-                                        <p>Le Migliori Auto Elettriche Sul Mercato.</p>
-                                </div>
-                           </center>
-                       </div>
-                   </div>
-                   <div class="col-xs-4">
-                       <div class="thumbnail">
-                           <a href="products.php">
-                               <img src="img/watch.jpg" alt="Watch">
-                           </a>
-                           <center>
-                                <div class="caption">
-                                    <p id="autoResize">Lamborghini</p>
-                                    <p>Original watches from the best brands.</p>
-                                </div>
-                           </center>
-                       </div>
-                   </div>
-                   <div class="col-xs-4">
-                       <div class="thumbnail">
-                           <a href="products.php">
-                               <img src="img/shirt.jpg" alt="Shirt">
-                           </a>
-                           <center>
-                               <div class="caption">
-                                   <p id="autoResize">Car</p>
-                                   <p>Our exquisite collection of shirts.</p>
-                               </div>
-                           </center>
-                       </div>
-                   </div>
-               </div>
-           </div>
-            <br><br> <br><br><br><br>
-           <footer class="footer"> 
-           <div class="container">
-                
-                <center> <p>This website is developed by lilmarcat</p></center> 
-            
+
+<head>
+    <link rel="shortcut icon" href="img/napoli.webp" />
+    <title>Blilion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <!-- jquery library -->
+    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <!-- Latest compiled and minified javascript -->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <div>
+        <?php
+        require 'header.php';
+        ?>
+
+
+        <video muted autoplay loop class="videofullscreen">
+            <source src="video/sfondo.mp4" type="video/mp4">
+        </video>
+        <br><br><br>
+        <center>
+            <h1 style="color: white;">Billion.</h1><br>
+        </center>
+        <center>
+            <p style="color: white;">Flat 40% OFF on all premium brands.</p><br>
+        </center>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="products.php">
+                            <img src="immagini/Ford-Mustang-Shelby-GT500.png">
+                        </a>
+                        <center>
+                            <div class="caption">
+                                <p id="autoResize">Americane</p>
+                                <p>I veri cavalli americani, anche elettrici.</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="products.php">
+                            <img src="immagini/lamborghini-revuelto.png">
+                        </a>
+                        <center>
+                            <div class="caption">
+                                <p id="autoResize">Italiane</p>
+                                <p>Con il loro fascino e lo loro linee profonde.</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="thumbnail">
+                        <a href="products.php">
+                            <img src="immagini/gtr.png">
+                        </a>
+                        <center>
+                            <div class="caption">
+                                <p id="autoResize">Giapponesi</p>
+                                <p>Our exquisite collection of shirts.</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
             </div>
-           </footer>
         </div>
-    </body>
+        <br><br> <br><br><br><br>
+        </div>
+        <footer class="footer">
+            <div class="container">
+
+                <center>
+                    <p>This website is developed by lilmarcat</p>
+                </center>
+
+            </div>
+
+        </footer>
+    
+</body>
+
 </html>
