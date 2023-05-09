@@ -22,6 +22,9 @@ session_start();
     <style>
         body {
             background-image: url("img/dollari-sfondo.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
     </style>
 
