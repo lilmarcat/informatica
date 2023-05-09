@@ -28,7 +28,17 @@
         border-radius: 25px;
         padding:20px;
         }
-
+button {
+    outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Berlin, Helvetica, sans-serif;
+color: white;
+padding: 10px 20px;
+border: solid 1px gold;
+background: gold;
+  }
         
 #bannerContent{
     position:relative;
