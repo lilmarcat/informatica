@@ -8,10 +8,10 @@ function writeLog($msg)
 }
 
 class DatabaseClassSingleton
-{ 
+{
     //https://gist.github.com/jonashansen229/4534794
     //https://devjunky.com/Creating-a-MySqli-Database-Class-in-PHP/
-    
+
     private $_connection;
     private static $_instance; //The single instance
     private  $dbhost = "localhost";

@@ -44,21 +44,19 @@ if (isset($_SESSION['email'])) {
                         <div class="form-group">
                             <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" required="true" pattern=".{6,}">
                         </div>
-                        
+
                     </form>
                 </div>
             </div>
         </div>
         <br><br><br><br><br><br>
-        <footer class="footer">
+        <!-- <footer class="footer">
             <div class="container">
-
-                <center>
-                    <p>This website is developed by lilmarcat</p>
-                </center>
-
+                
+            <center> <p>This website is developed by lilmarcat</p></center> 
+            
             </div>
-        </footer>
+           </footer> -->
 
     </div>
 </body>

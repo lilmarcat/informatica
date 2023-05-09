@@ -62,15 +62,13 @@ require 'check_if_added.php';
             </div>
         </div>
         <br><br><br><br><br><br><br><br>
-        <footer class="footer">
+        <!-- <footer class="footer">
             <div class="container">
-
-                <center>
-                    <p>This website is developed by lilmarcat</p>
-                </center>
-
+                
+            <center> <p>This website is developed by lilmarcat</p></center> 
+            
             </div>
-        </footer>
+           </footer> -->
     </div>
 </body>
 

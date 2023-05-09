@@ -27,7 +27,7 @@ session_start();
 
 
         <video muted autoplay loop class="videofullscreen">
-            <source src="video/sfondo.mp4" type="video/mp4">
+            <source src="video/sfondo.mp4"type="video/mp4">
         </video>
         <br><br><br>
         <center>
@@ -37,7 +37,7 @@ session_start();
             <p style="color: white;">Flat 40% OFF on all premium brands.</p><br>
         </center>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        
+
 
         <div class="container">
             <div class="row">
@@ -83,18 +83,14 @@ session_start();
             </div>
         </div>
         <br><br> <br><br><br><br>
-        </div>
-        <footer class="footer">
+    </div>
+    <!-- <footer class="footer">
             <div class="container">
-
-                <center>
-                    <p>This website is developed by lilmarcat</p>
-                </center>
-
+                
+            <center> <p>This website is developed by lilmarcat</p></center> 
+            
             </div>
-
-        </footer>
-    
+           </footer> -->
 </body>
 
 </html>
