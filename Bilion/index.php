@@ -27,7 +27,7 @@ session_start();
 
 
         <video muted autoplay loop class="videofullscreen">
-            <source src="video/sfondo.mp4"type="video/mp4">
+            <source src="video/sfondo (1).mov">
         </video>
         <br><br><br>
         <center>
