@@ -3,6 +3,7 @@ require 'DatabaseClassSingleton.php';
 $result = DatabaseClassSingleton::getInstance()->Select("Select * from billion_articoli");
 $s = '';
 foreach ($result as $row) {
+    if($row['Nazione'] == "giappone"){
     $s .= '<div class="col-md-3 col-sm-6">
                 <div class="thumbnail" style="display: inline-block">
                     <div class="caption">
@@ -15,5 +16,6 @@ foreach ($result as $row) {
                     </div>                        
                 </div>
             </div>';
-}
+    }
 echo $s;
+}

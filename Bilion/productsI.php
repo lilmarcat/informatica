@@ -57,7 +57,7 @@ require 'check_if_added.php';
         <div class="container">
             <div class="row">
 
-                <?php include 'getProd.php' ?>
+                <?php include 'getProdI.php' ?>
 
             </div>
         </div>
