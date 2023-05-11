@@ -12,8 +12,7 @@ foreach ($result as $row) {
                         </a>
                         <h3>' . $row['nome'] . '</h3>
                         <p>Price: ' . $row['prezzo'] . '</p>
-                        <button type="button" name="button" id="button">Aggiungi al carrello</button>
-                          
+                                
                     </div>                        
                 </div>
             </div>';

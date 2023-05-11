@@ -2,7 +2,7 @@
 require 'DatabaseClassSingleton.php';
 session_start();
 if (isset($_SESSION['email'])) {
-    header('location: products.php');
+    header('location: index.php');
 }
 ?>
 
@@ -44,6 +44,9 @@ if (isset($_SESSION['email'])) {
                         <div class="form-group">
                             <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" required="true" pattern=".{6,}">
                         </div>
+                        <div class="form-group">
+                                    <input type="submit" value="Sign Up" class="btn btn-primary">
+                                </div>
 
                     </form>
                 </div>
