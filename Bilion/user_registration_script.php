@@ -38,7 +38,7 @@ if ($rows_fetched > 0) {
     $user_registration_query = "insert into billion_utenti(ID,nome,email,password) values ('0','$nome','$email','$password')";
     //die($user_registration_query);
     $user_registration_result = mysqli_query($con, $user_registration_query) or die(mysqli_error($con));
-    echo "User successfully registered";
+    //echo "User successfully registered";
     $_SESSION['email'] = $email;
     //The mysqli_insert_id() function returns the id (generated with AUTO_INCREMENT) used in the last query.
     $_SESSION['id'] = mysqli_insert_id($con);
@@ -47,5 +47,5 @@ if ($rows_fetched > 0) {
     <meta http-equiv="refresh" content="3;url=index.php" />
 <?php
 }
-
+header('location: index.php');
 ?>

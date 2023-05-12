@@ -8,7 +8,8 @@
     $user_id = $_SESSION['id'];
     
     $cart_id=rand(1,999999);
-    $dataOggi = date("Y-m-d");
+    $_SESSION['carrelloid']=$cart_id;
+    
     
     
     $query = "SELECT * FROM billion_carrelli WHERE idUtente = ".$user_id;
@@ -22,7 +23,7 @@
       $invia1 = mysqli_query($con, $add_to_cart_query) or die(mysqli_error($con));
     } else {
       // L'utente non ha ancora un carrello nel database
-      $crea_carrello="insert into billion_carrelli(id,idUtente,dataCreazone) values (".$cart_id.",".$user_id.",".$dataOggi.")";
+      $crea_carrello="insert into billion_carrelli(id,idUtente) values (".$cart_id.",".$user_id.")";
       $invia2 = mysqli_query($con, $crea_carrello) or die(mysqli_error($con));
 
       $add_to_cart_query="insert into billion_contiene(idCarrello,idArticolo) values (".$cart_id.",".$item_id.")";

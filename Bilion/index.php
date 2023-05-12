@@ -34,7 +34,7 @@ session_start();
             <h1 style="color: white;">Billion.</h1><br>
         </center>
         <center>
-            <p style="color: white;">Flat 40% OFF on all premium brands.</p><br>
+            <p style="color: white;">From lilmarcat Company.</p><br>
         </center>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
