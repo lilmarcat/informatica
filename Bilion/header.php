@@ -32,7 +32,31 @@
                 }
                 ?>
 
+<!--<button id="search-button">Cerca prodotti</button>
+
+<div id="popup" class="popup">
+    <h2>Ricerca prodotti</h2>
+    <form>
+        <input type="text" name="search-query">
+        <button type="submit">Cerca</button>
+    </form>
+    <button id="close-button">Chiudi</button>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#search-button').click(function() {
+            $('#popup').fadeIn();
+        });
+
+        $('#close-button').click(function() {
+            $('#popup').fadeOut();
+        });
+    });
+</script>-->
+
             </ul>
         </div>
+
     </div>
 </nav>
